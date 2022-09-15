@@ -1,0 +1,139 @@
+.site-flex {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;  
+}
+.www {
+  font-size: 20px;
+}
+
+.first-select {
+  margin-top: 5px;
+  width: 185px;
+  height: 30px;
+  padding: 0 15px 0 8px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.first-select:hover {
+  border-radius: 25px;
+  background-color: aqua;
+}
+
+.opt {
+  background-color: rgb(223, 223, 223);
+}
+
+.ee {
+  margin-top: 20px;
+}
+
+.rd-form {
+  margin-top: 10px; 
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.radioo {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: crimson;
+  margin-right: 10px;
+}
+
+.rd-form:last-child {
+  margin: 0;  
+}
+
+.check-box {
+  margin-top: 20px;
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bir {
+  margin-right: 41px;
+}
+
+.ikki {
+  margin-right: 20px;
+}
+
+.uch {
+  margin-right: 50px;
+}
+
+.tor {
+  margin-left: 23px;
+}
+
+.site-input {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.put-box {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.put-box:nth-child(5) {
+  margin: 0;
+}
+.put-box:nth-child(6) {
+  margin: 0;
+}
+
+.qsh-box {
+  margin-top: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-2 {
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-span {
+  display: block;
+  width: 2.5px;
+  height: 550px;
+  border-radius: 25px;
+  background-color: black;
+}
+
+.btn {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+}
+
+.first-box {
+  margin-right: 200px;
+}
+
+.scound-box {
+  margin-left: 100px;
+}
+
+.scound-box span {
+  color: chartreuse;
+}
