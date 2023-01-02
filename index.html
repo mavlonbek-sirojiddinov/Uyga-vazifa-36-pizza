@@ -15,8 +15,8 @@
           <h4 class="www">Noni Qanday bolsin</h4>
           <select class="first-select" id="sele">
             <option class="opt" value="Yupqa">Yupqa</option>
-            <option class="opt" value="orta">orta</option>
-            <option class="opt" value="qalin">qalin</option>
+            <option class="opt" value="O'rta">orta</option>
+            <option class="opt" value="Qalin">qalin</option>
           </select>
       
           <h4 class="www ee">Kattaligi</h4>
@@ -33,42 +33,43 @@
             <input type="radio" class="radioo" value="35 cm" name="radi">
             <label for="">35 cm</label>
           </div>
+
           <h4 class="www ee">Ustiga Nima Solaylik?</h4>
           <div class="check-box">
             <div class="put-box bir">
-              <input class="site-input" type="checkbox">
+              <input class="site-input site-input1" onclick="isChacked1()" type="checkbox">
               <label for="">pamidor</label>
             </div>
             <div class="put-box">
-              <input class="site-input" type="checkbox">
+              <input class="site-input site-input2" onclick="isChacked2()" value="Kurka go'shti" type="checkbox">
               <label for="">Kurka go'shti</label>
             </div>
             <div class="put-box uch">
-              <input class="site-input" type="checkbox">
+              <input class="site-input site-input3" onclick="isChacked3()" type="checkbox">
               <label for="">Zaytun</label>
             </div>
             <div class="put-box">
-              <input class="site-input" type="checkbox">
+              <input class="site-input site-input4" onclick="isChacked4()" type="checkbox">
               <label for="">Tuzlangan bodiring</label>
             </div>
             <div class="put-box">
-              <input class="site-input" type="checkbox">
+              <input class="site-input site-input5" onclick="isChacked5()" type="checkbox">
               <label for="">Qo'zi qorin</label>
             </div>
             <div class="put-box">
-              <input class="site-input tor" type="checkbox">
+              <input class="site-input tor site-input6" onclick="isChacked6()" type="checkbox">
               <label for="">Qazi</label>
             </div>
           </div>
           <h4 class="www ee">Qo'shimchalar</h4>
           <div class="qsh-box">
             <div class="input-2">
-              <input class="site-input" type="checkbox">
+              <input class="site-input site-input-qosh1" onclick="isInputQosh1()" type="checkbox">
               <label for="">Achchiq</label>
             </div>
             <div class="input-2">
-              <input class="site-input" type="checkbox">
-              <label for="">sasiskali</label>
+              <input class="site-input site-input-qosh2" onclick="isInputQosh2()" type="checkbox">
+              <label for="">Pishloq</label>
             </div>
           </div>
         </form>
@@ -76,14 +77,26 @@
       </div>
       <span class="flex-span"></span>
       <div class="scound-box">
-        <h4 class="h4-1">Non: <span id="hamir"></span></h4> 
+        <h4 class="h4-1">Non : <span id="hamir"></span></h4> 
 
-        <h4 class="h4-2">Kattaligi: <span id="radio-result"></span></h4>
+        <h4 class="h4-2">Kattaligi : <span id="radio-result"></span></h4>
 
-        <h4 class="h4-3">Ustida:</h4>
+        <h4 class="h4-3">Ustida : </h4>
+        <div class="h4-3-div">
+          <h4 class="input-result1 input-result">- Pamidor</h4>
+          <h4 class="input-result2 input-result">- Bodring</h4>
+          <h4 class="input-result3 input-result">- Sir</h4>
+          <h4 class="input-result4 input-result"></h4>
+          <h4 class="input-result5 input-result"></h4>
+          <h4 class="input-result6 input-result"></h4>
+        </div>
         <ul></ul>
 
         <h4 class="h4-4">Qo'shimcha:</h4>
+        <div class="h4-4-div">
+          <h4 class="input-result qosh-result1">- Achchiq</h4>
+          <h4 class="input-result qosh-result2">- Pishloq</h4>
+        </div>
         <ul></ul>
 
         <form class="site-form" name="formm"><button class="btn">Buyurtma Berish</button></form>
