@@ -96,7 +96,11 @@ function isInputQosh2() {
 }
 
 
+var elBtn = document.querySelector('.btn')
 
+function onClick() {
+  alert("Buyurtma berildi")
+}
 
 
 
